@@ -5,8 +5,8 @@
 .heading h1 {
 	font-family: 'Helvetica';
 	font-size: 50px;
-	line-height: 57px;
-	padding: 57px;
+	line-height: 200px;
+	margin-left: 40px;
 	color: white;
 }
 .main-image {
@@ -15,52 +15,56 @@
 	background-image: url(../img/driko.jpg);
 }
 .links {
-	margin: 0;
 	height: 100px;
 	background-color: rgba(229, 224, 0, 1);
 }
+.links ul {
+	margin: 0px;
+}
+.links li {
+	list-style-type: none;
+}
 .links a {
-	padding: 57px;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Helvetica';
 	font-style: normal;
 	font-weight: bold;
 	font-size: 25px;
-	line-height: 29px;
-	align-items: center;
+	line-height: 100px;
 	color: white;
 }
-.text-block {
-	padding: 57px;
-	font-family: Helvetica;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 50px;
-	line-height: 57px;
-	text-align: left;
-	color: black;
-}
-.text-block div {
+.main-block {
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 50px;
-	line-height: 57px;
 	color: black;
+}
+.main-block h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: left;
+	margin-left: 40px;
+	color: black;
+}
+.main-block p {
+	margin-left: 40px;
 }
 .footer {
 	height: 200px;
 	background-color: rgba(229, 224, 0, 1);
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
-	background-position: bottom 50% left 57px;
+	background-position: bottom 50% left 40px;
 }
 .footer h3 {
 	font-family: Helvetica;
 	font-size: 50px;
-	padding: 67px;
-	line-height: 57px;
+	line-height: 200px;
 	text-align: right;
+	margin-right: 40px;
 	color: white;
 }
