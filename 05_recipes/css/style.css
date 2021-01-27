@@ -1,0 +1,94 @@
+@import url("reset.css");
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.heading {
+	height: 60px;
+	background-color: #FE1A19;
+}
+.heading h1 {
+	margin-left: 20px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	color: white;
+}
+h2 {
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	margin: 33px 0 0 33px;
+}
+.inner {
+	width: 250px;
+	height: 670px;
+	padding: 33px;
+	box-sizing: border-box;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+.inner h3 {
+	margin-top: 20px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+.inner p {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+.first {
+	width: 400px;
+	height: 800px;
+	margin: 52px 25px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+}
+.second {
+	width: 400px;
+	height: 800px;
+	margin: 52px 25px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+}
+.third {
+	width: 400px;
+	height: 800px;
+	margin: 52px 25px;
+	border: 5px solid #E5E000;
+	box-sizing: border-box;
+	border-radius: 30px;
+	display: inline-block;
+}
+.footer {
+	height: 60px;
+	background-color: #FE1A19;
+}
+.footer h3 {
+	margin-left: 20px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: left;
+	color: white;
+}

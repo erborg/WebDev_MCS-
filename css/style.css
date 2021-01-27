@@ -20,6 +20,7 @@
 }
 .links ul {
 	margin: 0px;
+	position: inline;
 }
 .links li {
 	list-style-type: none;
