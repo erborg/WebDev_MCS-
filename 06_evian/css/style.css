@@ -3,12 +3,12 @@
 .header {
 	height: 140px;
 	width: 100%;
-	display: inline-block;
 	position: fixed;
 	top: 0;
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
+	background-color: white;
 	z-index: 1;
 }
 .header h1 {
@@ -19,6 +19,9 @@
 	margin-left: 50px;
 	line-height: 140px;
 	color: #E50043;
+}
+li {
+	display: inline;
 }
 .menu {
 	margin-right: 25px;
@@ -36,8 +39,8 @@
 .main-image {
 	margin-top: 140px;
 	margin-bottom: 150px;
-	width: 1440px;
-	height: 950px;
+	background-size: cover;
+	background-position: center;
 	background-image: url("../img/evian_origins_logo.png");
 }
 .main-image h2 {
@@ -65,11 +68,9 @@
 	margin-bottom: 150px;
 }
 .bottles {
-	margin-left: 200px;
-	margin-right: 200px;
+	justify-content: space-evenly;
 	margin-bottom: 48px;
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
 }
 .bottle-1, .bottle-2, .bottle-3 {
@@ -86,11 +87,9 @@
 	background-image: url("../img/bottle_3.png");
 }
 .info {
-	margin-left: 200px;
-	margin-right: 200px;
 	margin-bottom: 150px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
 	text-align: center;
 	font-family: Arial;
@@ -103,21 +102,19 @@
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
-	padding: 30px;
-	line-height: 29px;
+	padding: 30px 30px 30px 80px;
 	display: flex;
 	align-items: center;
 	margin-bottom: 150px;
 }
 .small-bottle {
-	box-sizing: border-box;
-	width: 115px;
-	height: 220px;
 	margin-right: 80px;
-	margin-left: 80px;
+	width: 101px;
+	height: 220px;
 	background-image: url("../img/small-bottle.png");
 }
 .desc {
+	width: 749px;
 	font-family: Arial;
 	font-size: 25px;
 	line-height: 29px;
