@@ -20,11 +20,11 @@
 	line-height: 140px;
 	color: #E50043;
 }
-li {
-	display: inline;
-}
 .menu {
 	margin-right: 25px;
+}
+.menu li {
+	display: inline;
 }
 .menu ul li a {
 	text-decoration: none;
