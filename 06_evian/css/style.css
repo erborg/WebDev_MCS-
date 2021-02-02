@@ -6,12 +6,12 @@
 	position: fixed;
 	top: 0;
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 50px;
 	background-color: white;
 	z-index: 1;
 }
 .header h1 {
+	margin-right: auto;
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
@@ -21,6 +21,7 @@
 	color: #E50043;
 }
 .menu {
+	margin-left: auto;
 	margin-right: 25px;
 }
 .menu li {
