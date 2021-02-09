@@ -1,5 +1,10 @@
 @import url("reset.css");
 
+html {
+	max-width: 3440px;
+	margin: auto;
+}
+
 .header {
 	height: 160px;
 	width: 100%;
