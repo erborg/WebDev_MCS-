@@ -1,0 +1,91 @@
+@import url("reset.css");
+
+.header {
+	height: 160px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+	background-color: #FFE138;
+}
+
+.header h1 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3em;
+	line-height: 160px;
+	text-transform: uppercase;
+}
+
+.columns {
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	margin-bottom: 70px;
+}
+
+.col {
+	height: 100%;
+	width: calc((100% - 100px)/3);
+	max-width: 400px;
+	border: 1px solid grey;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 1.3em;
+	line-height: 25px;
+	box-sizing: border-box;
+}
+
+.text {
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.text p {
+	font-weight: normal;
+}
+
+
+.image1 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/meta_side_table.png);
+	padding-bottom: 100%;
+	margin-bottom: 30px;
+}
+
+.image2 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/click_shelf.png);
+	padding-bottom: 100%;
+	margin-bottom: 30px;
+}
+
+.image3 {
+	background-size: cover;
+	background-position: center;
+	background-image: url(../img/float_shelf.png);
+	padding-bottom: 100%;
+	margin-bottom: 30px;
+}
+
+.footer {
+	height: 160px;
+	width: 100%;
+	background-color: #FFE138;
+}
+
+.footer h3 {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 3em;
+	line-height: 160px;
+	display: flex;
+	justify-content: center;
+}
