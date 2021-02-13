@@ -76,6 +76,10 @@ p {
 		margin-left: 20px;
 	}
 
+	.break {
+		flex-basis: 100%;
+	}
+
 	.footer {
 		margin-top: 80px;
 	}

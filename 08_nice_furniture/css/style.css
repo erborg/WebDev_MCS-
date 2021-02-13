@@ -24,17 +24,15 @@ html {
 }
 
 .columns {
-	margin: auto;
 	display: flex;
-	justify-content: space-around;
-	align-items: stretch;
+	justify-content: center;
 	margin-bottom: 70px;
+	column-gap: 40px;
 }
 
 .col {
 	height: 100%;
-	width: calc((100% - 100px)/3);
-	max-width: 400px;
+	width: 400px;
 	border: 1px solid grey;
 	font-family: Times New Roman;
 	font-style: normal;
@@ -56,6 +54,7 @@ html {
 
 
 .image1 {
+	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/meta_side_table.png);
@@ -64,6 +63,7 @@ html {
 }
 
 .image2 {
+	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/click_shelf.png);
@@ -72,6 +72,7 @@ html {
 }
 
 .image3 {
+	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/float_shelf.png);
