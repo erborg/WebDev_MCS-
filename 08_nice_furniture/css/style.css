@@ -54,29 +54,26 @@ html {
 
 
 .image1 {
-	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/meta_side_table.png);
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 	margin-bottom: 30px;
 }
 
 .image2 {
-	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/click_shelf.png);
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 	margin-bottom: 30px;
 }
 
 .image3 {
-	height: 600px;
 	background-size: cover;
 	background-position: center;
 	background-image: url(../img/float_shelf.png);
-	padding-bottom: 100%;
+	padding-bottom: 150%;
 	margin-bottom: 30px;
 }
 
