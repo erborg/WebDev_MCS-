@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Feedback</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta description="feedback">
+	<meta keywords="feedback">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<h1>МЕНЮ</h1>
+		<nav class="menu">
+			<ul>
+				<li>
+					<li><a href="#link">ПОСЫЛКИ</a></li>
+					<li><a href="#link">УПАКОВКА</a></li>
+					<li><a href="#link">ПОДПИСКА</a></li>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="image"></div>
+		<div class="form">
+		<form action="https://formspree.io/f/mrgovpwo" method="POST">
+			<fieldset>
+				<label for="name">Имя</label>
+				<input type="text" name="name" placeholder="Ира">
+				<label for="city">Город</label>
+				<input type="text" name="city" placeholder="Сочи">
+				<label for="gift">Подарок</label>
+				<select name="gift" placeholder="Книга в твердом переплете">
+					<option value="book">Книга в твердом переплете</option>
+					<option value="album">Альбом с картинками</option>
+				</select>
+				<label for="email">Электронная почта</label>
+				<input type="email" name="_replyto" placeholder="daykiller@gmail.com">
+			</fieldset>
+			<input type="submit" name="submit">
+		</form>
+		</div>
+		<div class="success">ВАША ПОСЫЛКА УЖЕ В ПУТИ!</div>
+	</main>
+	<footer class="footer">
+		<h3>СЕКРЕТНЫЕ ПОСЫЛКИ ДЛЯ ДРУЗЕЙ</h3>
+		<h3>© 2021</h3>
+	</footer>
+</body>
+</html>

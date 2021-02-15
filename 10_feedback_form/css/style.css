@@ -1,0 +1,141 @@
+@import url(reset.css);
+
+.header {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+	background-color: #F8BFC7;
+}
+
+.header h1 {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 90px;
+	color: black;
+	margin-right: 50px;
+}
+
+.menu {
+	margin-left: 50px;
+}
+
+.menu li {
+	display: inline;
+}
+
+.menu li a {
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 90px;
+	margin-right: 30px; 
+	color: black;
+}
+
+.image {
+	height: 643px;
+	background-size: cover;
+	background-position: center;
+	background-image: url("../img/background.png");
+}
+
+.form {
+	position: fixed;
+	padding-left: 30px;
+	padding-top: 30px;
+	left: 90px;
+	top: 180px;
+	width: 300px;
+	height: 362px;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+	background-color: #F8BFC7;
+}
+
+input, select {
+	display: block;
+	font-size: 20px;
+	height: 30px;
+	width: 90%;
+	border: none;
+	color: white;
+	background: transparent;
+	border-bottom: 1px solid white;
+}
+
+input:focus {
+	outline: none;
+	color: #434a56;
+}
+
+::placeholder {
+	font-family: Times New Roman;
+	font-size: 20px;
+	line-height: 23px;
+	color: white;
+	font-size: 20px;
+	opacity: .7;
+	background-color: #F8BFC7;
+}
+
+label {
+	line-height: 2.5rem;
+	font-size: 20px;
+}
+
+
+input[type="submit"] {
+	position: fixed;
+	top: 552px;
+	left: 140px;
+	width: 200px;
+	height: 60px;
+	background-color: #FEB700;
+	border: 3px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 30px;
+	font-family: Helvetica;
+	font-size: 20px;
+	line-height: 23px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+.success {
+	height: 200px;
+	background-color: #336FD2;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 80px;
+	color: #FEB700;
+}
+
+.footer {
+	height: 90px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #F8BFC7;
+}
+
+.footer h3 {
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 90px;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: white;
+}
