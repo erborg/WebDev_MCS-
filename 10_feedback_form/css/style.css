@@ -122,6 +122,10 @@ input[type="submit"] {
 	color: #FEB700;
 }
 
+main {
+	min-height: calc(100vh - 180px);
+}
+
 .footer {
 	height: 90px;
 	width: 100%;

@@ -74,10 +74,7 @@ p {
 		line-height: 57px;
 		font-size: 50px;
 		margin-left: 20px;
-	}
-
-	.break {
-		flex-basis: 100%;
+		flex-basis: 35%
 	}
 
 	.footer {
