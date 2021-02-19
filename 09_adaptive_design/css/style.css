@@ -29,8 +29,8 @@
 	height: 165px;
 	width: 330px;
 	font-family: Helvetica;
-	font-size: 25px;
-	line-height: 29px;
+	font-size: calc(2rem + 1vw);
+	line-height: calc(2rem + 2vw);
 	padding: 10px;
 	text-align: center;
 	box-sizing: border-box;
@@ -71,8 +71,7 @@ p {
 	.box {
 		width: 600px;
 		height: 300px;
-		line-height: 57px;
-		font-size: 50px;
+		/*line-height: 57px;*/
 		margin-left: 20px;
 		flex-basis: 35%
 	}
